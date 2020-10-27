@@ -1,0 +1,22 @@
+.ng-valid,
+.ng-valid.required {
+  background-color: lightgreen;
+}
+
+.ng-invalid:not(form) {
+  /* background-color: lightcoral; */
+  background-color: lightpink;
+}
+
+table {
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+}
+.error {
+  color: red;
+}
+.success {
+  color: green;
+}
